@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EA6EDDD8-6517-4D37-B3F0-88D0984FB3EB</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D822F3BA647FB147E288BD9494EC45467A63C4C8</key>
+		<string>ssh://guatemalacity.dreamhost.com/~/git.merchv.com/ios-library.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D822F3BA647FB147E288BD9494EC45467A63C4C8</key>
+		<string>iOS%20Library/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://guatemalacity.dreamhost.com/~/git.merchv.com/ios-library.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D822F3BA647FB147E288BD9494EC45467A63C4C8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D822F3BA647FB147E288BD9494EC45467A63C4C8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS%20Library</string>
+		</dict>
+	</array>
+</dict>
+</plist>

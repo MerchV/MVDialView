@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9606766185122F800C3707F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9606765185122F800C3707F /* Foundation.framework */; };
+		B9606768185122F800C3707F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9606767185122F800C3707F /* CoreGraphics.framework */; };
+		B960676A185122F800C3707F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9606769185122F800C3707F /* UIKit.framework */; };
+		B9606770185122F800C3707F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B960676E185122F800C3707F /* InfoPlist.strings */; };
+		B9606772185122F800C3707F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9606771185122F800C3707F /* main.m */; };
+		B9606776185122F800C3707F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9606775185122F800C3707F /* AppDelegate.m */; };
+		B9606779185122F800C3707F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9606777185122F800C3707F /* Main.storyboard */; };
+		B960677C185122F800C3707F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B960677B185122F800C3707F /* ViewController.m */; };
+		B960677E185122F800C3707F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B960677D185122F800C3707F /* Images.xcassets */; };
+		B9C538E81A905810000EC46D /* MVDialView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C538E71A905810000EC46D /* MVDialView.m */; };
+		B9C538F71A9059D2000EC46D /* DialBottomBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C538EB1A9059D2000EC46D /* DialBottomBackgroundImage.png */; };
+		B9C538F81A9059D2000EC46D /* DialBottomBackgroundImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C538EC1A9059D2000EC46D /* DialBottomBackgroundImage@2x.png */; };
+		B9C538F91A9059D2000EC46D /* DialBottomEdge.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C538ED1A9059D2000EC46D /* DialBottomEdge.png */; };
+		B9C538FA1A9059D2000EC46D /* DialBottomEdge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C538EE1A9059D2000EC46D /* DialBottomEdge@2x.png */; };
+		B9C538FB1A9059D2000EC46D /* DialMiddleBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C538EF1A9059D2000EC46D /* DialMiddleBackgroundImage.png */; };
+		B9C538FC1A9059D2000EC46D /* DialMiddleBackgroundImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C538F01A9059D2000EC46D /* DialMiddleBackgroundImage@2x.png */; };
+		B9C538FD1A9059D2000EC46D /* DialMiddleEdge.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C538F11A9059D2000EC46D /* DialMiddleEdge.png */; };
+		B9C538FE1A9059D2000EC46D /* DialMiddleEdge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C538F21A9059D2000EC46D /* DialMiddleEdge@2x.png */; };
+		B9C538FF1A9059D2000EC46D /* DialTopBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C538F31A9059D2000EC46D /* DialTopBackgroundImage.png */; };
+		B9C539001A9059D2000EC46D /* DialTopBackgroundImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C538F41A9059D2000EC46D /* DialTopBackgroundImage@2x.png */; };
+		B9C539011A9059D2000EC46D /* DialTopEdge.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C538F51A9059D2000EC46D /* DialTopEdge.png */; };
+		B9C539021A9059D2000EC46D /* DialTopEdge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C538F61A9059D2000EC46D /* DialTopEdge@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9606762185122F800C3707F /* MVDialViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVDialViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9606765185122F800C3707F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9606767185122F800C3707F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9606769185122F800C3707F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B960676D185122F800C3707F /* MVDialViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVDialViewDemo-Info.plist"; sourceTree = "<group>"; };
+		B960676F185122F800C3707F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9606771185122F800C3707F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9606773185122F800C3707F /* MVDialViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVDialViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B9606774185122F800C3707F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9606775185122F800C3707F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9606778185122F800C3707F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B960677A185122F800C3707F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B960677B185122F800C3707F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B960677D185122F800C3707F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B9606784185122F800C3707F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B9C538E61A905810000EC46D /* MVDialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVDialView.h; sourceTree = "<group>"; };
+		B9C538E71A905810000EC46D /* MVDialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVDialView.m; sourceTree = "<group>"; };
+		B9C538EB1A9059D2000EC46D /* DialBottomBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DialBottomBackgroundImage.png; path = images/DialBottomBackgroundImage.png; sourceTree = "<group>"; };
+		B9C538EC1A9059D2000EC46D /* DialBottomBackgroundImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DialBottomBackgroundImage@2x.png"; path = "images/DialBottomBackgroundImage@2x.png"; sourceTree = "<group>"; };
+		B9C538ED1A9059D2000EC46D /* DialBottomEdge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DialBottomEdge.png; path = images/DialBottomEdge.png; sourceTree = "<group>"; };
+		B9C538EE1A9059D2000EC46D /* DialBottomEdge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DialBottomEdge@2x.png"; path = "images/DialBottomEdge@2x.png"; sourceTree = "<group>"; };
+		B9C538EF1A9059D2000EC46D /* DialMiddleBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DialMiddleBackgroundImage.png; path = images/DialMiddleBackgroundImage.png; sourceTree = "<group>"; };
+		B9C538F01A9059D2000EC46D /* DialMiddleBackgroundImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DialMiddleBackgroundImage@2x.png"; path = "images/DialMiddleBackgroundImage@2x.png"; sourceTree = "<group>"; };
+		B9C538F11A9059D2000EC46D /* DialMiddleEdge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DialMiddleEdge.png; path = images/DialMiddleEdge.png; sourceTree = "<group>"; };
+		B9C538F21A9059D2000EC46D /* DialMiddleEdge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DialMiddleEdge@2x.png"; path = "images/DialMiddleEdge@2x.png"; sourceTree = "<group>"; };
+		B9C538F31A9059D2000EC46D /* DialTopBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DialTopBackgroundImage.png; path = images/DialTopBackgroundImage.png; sourceTree = "<group>"; };
+		B9C538F41A9059D2000EC46D /* DialTopBackgroundImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DialTopBackgroundImage@2x.png"; path = "images/DialTopBackgroundImage@2x.png"; sourceTree = "<group>"; };
+		B9C538F51A9059D2000EC46D /* DialTopEdge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DialTopEdge.png; path = images/DialTopEdge.png; sourceTree = "<group>"; };
+		B9C538F61A9059D2000EC46D /* DialTopEdge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DialTopEdge@2x.png"; path = "images/DialTopEdge@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B960675F185122F800C3707F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9606768185122F800C3707F /* CoreGraphics.framework in Frameworks */,
+				B960676A185122F800C3707F /* UIKit.framework in Frameworks */,
+				B9606766185122F800C3707F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9606759185122F800C3707F = {
+			isa = PBXGroup;
+			children = (
+				B960676B185122F800C3707F /* MVDialViewDemo */,
+				B9606764185122F800C3707F /* Frameworks */,
+				B9606763185122F800C3707F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9606763185122F800C3707F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9606762185122F800C3707F /* MVDialViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9606764185122F800C3707F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9606765185122F800C3707F /* Foundation.framework */,
+				B9606767185122F800C3707F /* CoreGraphics.framework */,
+				B9606769185122F800C3707F /* UIKit.framework */,
+				B9606784185122F800C3707F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B960676B185122F800C3707F /* MVDialViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B9C538E91A9059C6000EC46D /* images */,
+				B9C538E61A905810000EC46D /* MVDialView.h */,
+				B9C538E71A905810000EC46D /* MVDialView.m */,
+				B9606774185122F800C3707F /* AppDelegate.h */,
+				B9606775185122F800C3707F /* AppDelegate.m */,
+				B960677D185122F800C3707F /* Images.xcassets */,
+				B9606777185122F800C3707F /* Main.storyboard */,
+				B960676C185122F800C3707F /* Supporting Files */,
+				B960677A185122F800C3707F /* ViewController.h */,
+				B960677B185122F800C3707F /* ViewController.m */,
+			);
+			path = MVDialViewDemo;
+			sourceTree = "<group>";
+		};
+		B960676C185122F800C3707F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B960676D185122F800C3707F /* MVDialViewDemo-Info.plist */,
+				B960676E185122F800C3707F /* InfoPlist.strings */,
+				B9606771185122F800C3707F /* main.m */,
+				B9606773185122F800C3707F /* MVDialViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9C538E91A9059C6000EC46D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B9C538EB1A9059D2000EC46D /* DialBottomBackgroundImage.png */,
+				B9C538EC1A9059D2000EC46D /* DialBottomBackgroundImage@2x.png */,
+				B9C538ED1A9059D2000EC46D /* DialBottomEdge.png */,
+				B9C538EE1A9059D2000EC46D /* DialBottomEdge@2x.png */,
+				B9C538EF1A9059D2000EC46D /* DialMiddleBackgroundImage.png */,
+				B9C538F01A9059D2000EC46D /* DialMiddleBackgroundImage@2x.png */,
+				B9C538F11A9059D2000EC46D /* DialMiddleEdge.png */,
+				B9C538F21A9059D2000EC46D /* DialMiddleEdge@2x.png */,
+				B9C538F31A9059D2000EC46D /* DialTopBackgroundImage.png */,
+				B9C538F41A9059D2000EC46D /* DialTopBackgroundImage@2x.png */,
+				B9C538F51A9059D2000EC46D /* DialTopEdge.png */,
+				B9C538F61A9059D2000EC46D /* DialTopEdge@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9606761185122F800C3707F /* MVDialViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9606794185122F800C3707F /* Build configuration list for PBXNativeTarget "MVDialViewDemo" */;
+			buildPhases = (
+				B960675E185122F800C3707F /* Sources */,
+				B960675F185122F800C3707F /* Frameworks */,
+				B9606760185122F800C3707F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVDialViewDemo;
+			productName = MVDialViewDemo;
+			productReference = B9606762185122F800C3707F /* MVDialViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B960675A185122F800C3707F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Merch Visoiu";
+			};
+			buildConfigurationList = B960675D185122F800C3707F /* Build configuration list for PBXProject "MVDialViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9606759185122F800C3707F;
+			productRefGroup = B9606763185122F800C3707F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9606761185122F800C3707F /* MVDialViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9606760185122F800C3707F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C539011A9059D2000EC46D /* DialTopEdge.png in Resources */,
+				B9C538F81A9059D2000EC46D /* DialBottomBackgroundImage@2x.png in Resources */,
+				B9C538FD1A9059D2000EC46D /* DialMiddleEdge.png in Resources */,
+				B960677E185122F800C3707F /* Images.xcassets in Resources */,
+				B9C538FC1A9059D2000EC46D /* DialMiddleBackgroundImage@2x.png in Resources */,
+				B9606770185122F800C3707F /* InfoPlist.strings in Resources */,
+				B9C539021A9059D2000EC46D /* DialTopEdge@2x.png in Resources */,
+				B9C538FE1A9059D2000EC46D /* DialMiddleEdge@2x.png in Resources */,
+				B9C539001A9059D2000EC46D /* DialTopBackgroundImage@2x.png in Resources */,
+				B9C538F71A9059D2000EC46D /* DialBottomBackgroundImage.png in Resources */,
+				B9C538FB1A9059D2000EC46D /* DialMiddleBackgroundImage.png in Resources */,
+				B9606779185122F800C3707F /* Main.storyboard in Resources */,
+				B9C538FF1A9059D2000EC46D /* DialTopBackgroundImage.png in Resources */,
+				B9C538F91A9059D2000EC46D /* DialBottomEdge.png in Resources */,
+				B9C538FA1A9059D2000EC46D /* DialBottomEdge@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B960675E185122F800C3707F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B960677C185122F800C3707F /* ViewController.m in Sources */,
+				B9606776185122F800C3707F /* AppDelegate.m in Sources */,
+				B9606772185122F800C3707F /* main.m in Sources */,
+				B9C538E81A905810000EC46D /* MVDialView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B960676E185122F800C3707F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B960676F185122F800C3707F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9606777185122F800C3707F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9606778185122F800C3707F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9606792185122F800C3707F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9606793185122F800C3707F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9606795185122F800C3707F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVDialViewDemo/MVDialViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "MVDialViewDemo/MVDialViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9606796185122F800C3707F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVDialViewDemo/MVDialViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "MVDialViewDemo/MVDialViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B960675D185122F800C3707F /* Build configuration list for PBXProject "MVDialViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9606792185122F800C3707F /* Debug */,
+				B9606793185122F800C3707F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9606794185122F800C3707F /* Build configuration list for PBXNativeTarget "MVDialViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9606795185122F800C3707F /* Debug */,
+				B9606796185122F800C3707F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B960675A185122F800C3707F /* Project object */;
+}
